@@ -105,7 +105,7 @@ public class MainScreen extends JPanel {
         this.playerGuesses = new String(newPlayerGuesses);
 
     }
-
+ 
     public void paint(Graphics g) {
         super.paint(g);
         Graphics2D g2D = (Graphics2D) g;

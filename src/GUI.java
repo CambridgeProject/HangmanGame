@@ -298,7 +298,7 @@ public class GUI extends JFrame implements ActionListener {
         mainScreen.bottomPanel.setPreferredSize(new Dimension((int) (screenWidth/1.92), (int) (screenHeight/3.38)));
         incorrectGuesses = 0;
         correctlyGuessed = false;
-        if (gameMode == 's') {word = WordGeneration.Generate();}  //Generates a random word from text file (TEXT FILE IS A PLACEHOLDER)
+        if (gameMode == 's') {word = WordGeneration.Generate();}  //Generates a random word from text file if singleplayer
             splitWord = WordGeneration.SplitWord(word);  //Runs method that split word into an array of characters
             mainScreen.SetWord(word);
             System.out.println("Word is: " + word);
